@@ -1,0 +1,103 @@
+body{
+    text-align: center;
+    background-color: rgb(230, 184, 240);
+}
+
+#secaolorem{
+    text-align: start;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+    border: double 20px white;
+    font-family: sans-serif;
+    color: rgb(85, 84, 84);
+    
+}
+
+#nome{
+    color: rgb(160, 108, 160);
+}
+
+.secaobody{
+    display: flex;
+    flex:2;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.secaobodyitem{
+    flex: 1;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+#Portifolio{
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+    color: rgb(160, 108, 160);
+    border-radius: 20px;
+    padding: 20px;
+    border: double 20px white;
+    font-family: sans-serif
+    
+}
+
+#Stacks{
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+    color: rgb(160, 108, 160);
+    border-radius: 20px;
+    padding: 20px;
+    border: double 20px white;
+    font-family: sans-serif
+}
+
+#Contato{
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+    color: rgb(160, 108, 160);
+    border-radius: 20px;
+    padding: 20px;
+    border: double 20px white;
+    font-family: sans-serif
+}
+
+.secaocontato{
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    color: rgb(83, 83, 83);
+    margin-bottom: 20px;
+
+}
+
+.caixainteracao{
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    color: rgb(83, 83, 83);
+    
+}
+
+.button-enviar{
+    color: rgb(160, 108, 160);
+    border-radius: 10px;
+}
+
+
+.dev{
+    color: rgb(85, 84, 84);
+}
